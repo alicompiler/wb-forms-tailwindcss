@@ -5,13 +5,15 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "wb-forms": "^0.3.1"
+    "wb-forms": "^0.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "browserslist": {
     "production": [
@@ -42,6 +44,7 @@
     "postcss": "^8.4.16",
     "react-scripts": "5.0.1",
     "tailwindcss": "^3.1.8",
+    "typemoq": "^2.1.0",
     "typescript": "^4.4.2"
   }
 }
