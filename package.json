@@ -1,6 +1,6 @@
 {
   "name": "wb-forms-tailwindcss",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "private": false,
   "main": "build/main.js",
   "types": "build/main.d.ts",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf build && tsc --noEmit false && rm -rf ./build/__examples__ && rm -rf ./build/__examples && rm -rf ./build/__tests__ && rm -rf ./build/Utils && rm ./build/index.d.ts && rm ./build/index.js",
+    "build": "rm -rf build && tsc --noEmit false && rm -rf ./build/__examples__ && rm -rf ./build/__examples && rm -rf ./build/__tests__ && rm ./build/index.d.ts && rm ./build/index.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
